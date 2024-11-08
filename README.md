@@ -1,5 +1,5 @@
 # Data Analytics Queries
-Repository containing some queries on a database about Data Science related works.
+Repository containing some queries on a database about Data Science related jobs.
 
 # Introduction
 This project explores top-paying jobs, in-demand skills and where high demand meets high salary in data analytics. It's heavily inspired on [Luke Barousse Data Analytics video](https://www.youtube.com/watch?v=7mz73uXD9DA&t=). All the csv files can be found on [his free resource topic](https://www.lukebarousse.com/sql).
