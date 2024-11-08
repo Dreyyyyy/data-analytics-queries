@@ -1,6 +1,6 @@
 /*
 Quesion: What are the most optimal skills to learn (aka high demand and high-paying skills)?
-- Idenfity skills in high demand and associated with high abverage salary for Data Scientist role;
+- Idenfity skills in high demand and associated with high average salary for Data Scientist role;
 - Concentrate on remote positions with specified salaries;
 - This will help highlight relevant roles that are in demand and get 
 the top-paying opportunities for Data Scientists, offering insights on the area.
