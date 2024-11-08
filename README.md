@@ -87,7 +87,7 @@ The high average salaries in these roles reflect not only the technical expertis
 
 ### 2. Top Paying Data Scientist Skills
 To understand what skills are required for the top-paying jobs, I joined the job postings with the skills data, providing insights into what employers value for high-compensation roles.
-```
+```sql
 WITH top_paying_jobs AS (
     SELECT
         job_id,
@@ -143,7 +143,7 @@ These insights suggest that data science roles prioritizing SQL, Python, and big
 
 ### 3. Top Demanded Data Scientist Skills
 This query helped me to indentify the skills most frequently requested in job postings, directing focus to areas with high demand.
-```
+```sql
 SELECT 
     skills,
     COUNT(skills_job_dim.job_id) AS demand_count
@@ -202,7 +202,7 @@ These top skills underscore that data scientists need a well-rounded blend of te
 
 ### 4. Top Demanded Data Scientist Skills by Salary Rate
 This query was used to look at the average salary associated with each skill and focuses on roles with specified salaries, excluding null values.
-```
+```sql
 SELECT 
     skills,
     ROUND(AVG(salary_year_avg), 2) AS avg_salary
@@ -232,7 +232,7 @@ LIMIT 25;
 
 ### 5. Top Optimal Skills to Learn (Based on paying-rate)
 This query helped by identifying skills in high demand and associated with high average salary for Data Scientist role, concentrating on remote positions with specified salaries.
-```
+```sql
 SELECT
     skills_dim.skill_id,
     skills_dim.skills,
